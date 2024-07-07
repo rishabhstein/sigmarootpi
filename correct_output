@@ -1,10 +1,13 @@
 #!/bin/bash
 
-
-
 mv index.mine index.html
 rm -r *.mine
 #rm index.html
 
+# notebooks
 mv notebooks/index.mine notebooks/index.html
 rm -r notebooks/*.mine
+
+# book reviews
+mv bookReviews/index.mine bookReviews/index.html
+rm -r bookReviews/*.mine

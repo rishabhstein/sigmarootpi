@@ -1,10 +1,20 @@
-#Run this script before "correct_output"
+
+#This script is used in case of generating only html files
+#In case of generating both .html and .mine files "correct_output" is better
+
+
 # Rename all *.mine to *.html
 for file in *.mine; do
     mv -- "$file" "${file%.mine}.html"
 done
 
 cd notebooks/
+for file in *.mine; do
+    mv -- "$file" "${file%.mine}.html"
+done
+cd ..
+
+cd bookReviews/
 for file in *.mine; do
     mv -- "$file" "${file%.mine}.html"
 done
