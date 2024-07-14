@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mv index.mine index.html
-rm -r *.mine
+#rm -r *.mine
 #rm index.html
 
 # notebooks
@@ -9,5 +9,16 @@ mv notebooks/index.mine notebooks/index.html
 rm -r notebooks/*.mine
 
 # book reviews
-mv bookReviews/index.mine bookReviews/index.html
-rm -r bookReviews/*.mine
+tmp="bookReviews"
+rm -r $tmp/index.* $tmp/data/index.*
+rm -r $tmp/*.mine $tmp/data/*.mine
+
+#poetry and quotes
+tmp="poetryQuotes"
+rm -r $tmp/index.* $tmp/data/index.*
+rm -r $tmp/*.mine $tmp/data/*.mine
+
+#research
+tmp="research"
+rm -r $tmp/index.* $tmp/data/index.*
+rm -r $tmp/*.mine $tmp/data/*.mine
