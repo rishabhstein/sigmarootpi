@@ -1,24 +1,30 @@
 #!/bin/bash
 
-mv index.mine index.html
+mv home.mine home.html
 #rm -r *.mine
 #rm index.html
 
 # notebooks
 mv notebooks/index.mine notebooks/index.html
-rm -r notebooks/*.mine
+rm -rf notebooks/*.mine
 
 # book reviews
 tmp="bookReviews"
-rm -r $tmp/index.* $tmp/data/index.*
-rm -r $tmp/*.mine $tmp/data/*.mine
+rm -rf $tmp/index.* $tmp/data/index.*
+rm -rf $tmp/*.mine $tmp/data/*.mine
 
 #poetry and quotes
 tmp="poetryQuotes"
-rm -r $tmp/index.* $tmp/data/index.*
-rm -r $tmp/*.mine $tmp/data/*.mine
+rm -rf $tmp/index.* $tmp/data/index.*
+rm -rf $tmp/*.mine $tmp/data/*.mine
 
 #research
 tmp="research"
-rm -r $tmp/index.* $tmp/data/index.*
-rm -r $tmp/*.mine $tmp/data/*.mine
+rm -rf $tmp/index.* $tmp/data/index.*
+rm -rf $tmp/*.mine $tmp/data/*.mine
+
+#main
+tmp="main"
+rm -rf $tmp/index.* $tmp/index.*
+rm -rf $tmp/*.mine $tmp/*.mine
+
