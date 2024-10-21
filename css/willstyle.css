@@ -10,7 +10,7 @@ H1 {
 	font-weight: bold;
 	font-family: Verdana,Arial,Helvetica;
 	color: #003300;
-	background: #99aadd;
+	background: #000000; //#99aadd;
 }
 H2 { 
 	font-size: 12pt;
