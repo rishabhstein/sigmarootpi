@@ -17,7 +17,7 @@ header {
 }
 
 h1, h2, h3 {
-    color: #8B0000; /* The same dark red as the header for titles */
+    color: #8B0000; /* Dark red for titles */
 }
 
 h1 {
@@ -34,8 +34,8 @@ h3 {
 
 /* Main Content Area */
 main {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 900px; /* Set a maximum width to constrain content */
+    margin: 20px auto; /* Center the content horizontally */
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -65,6 +65,8 @@ main {
 .sidebar {
     background-color: #f0f0f0;
     padding: 20px;
+    margin: 20px auto;
+    max-width: 300px; /* Align sidebar within the page and restrict width */
 }
 
 .sidebar-title {
