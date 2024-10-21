@@ -26,6 +26,7 @@ input {
 P, TD {
 	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
 	font-size: 10pt;
+ 	text-align: justify;
 }
 
 TH {
@@ -185,7 +186,7 @@ a.menulink:active { color: #0000ff; text-decoration: underline; }
 
 .blosxomBody {
 	color: #222222;
-	//border: 1px solid #888888;
+	border: 1px solid #888888;
 	padding-left: 1em;
 	padding-right: 1em;
 }
