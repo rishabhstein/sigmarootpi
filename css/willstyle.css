@@ -68,7 +68,7 @@ a.menulink:active { color: #0000ff; text-decoration: underline; }
 .menu {
 	font-family: Verdana,Arial,Helvetica;
 	color: #000000;
-        background: #eeeeff;
+        background: #000000;
 }
 
 .update {
