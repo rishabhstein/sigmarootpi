@@ -1,7 +1,187 @@
 body{width:90%;margin-left:auto;margin-right:auto;max-width:720px;background-color:#fdfdfd;color:#111;text-rendering:optimizeLegibility}header{border-bottom:1px solid #CCC}footer{border-top:1px solid #CCC;padding:0.5em 15%;font-family:'Source Sans Pro','Helvetica',sans-serif}section h1{font-size:200%;margin:0.75em 0 0.5em 0}h1.title{margin:0}h1,h2,h3,h4{text-decoration:none;font-family:'Source Sans Pro','Helvetica',sans-serif;font-weight:normal;margin:1.5em 0 0.5em 0}h1 a,h2 a,h3 a,h4 a{color:#000}h1 a:hover,h2 a:hover,h3 a:hover{text-decoration:underline}h2{font-weight:bold}hr{border:0;height:0;border-bottom:1px solid #ccc}body>hr{border:0;text-align:center;margin:1em 0 3em 0}body>hr::after{content:"...";letter-spacing:1em;font-weight:bold}span.byline,span.home{font-family:'Source Sans Pro','Helvetica',sans-serif;font-size:10pt}span.home{float:right}span.postdate{font-style:italic}a{color:#0645AD;text-decoration:none}a:hover{text-decoration:underline}figure,footer{text-align:center;font-size:80%;margin:0}p{margin:0.75em 0}blockquote{font-size:90%;margin-top:0;margin-bottom:0}p,figcaption,li,caption,td,th,dt,dd{font-family:'Source Sans Pro','Helvetica',sans-serif;line-height:155%}dt{font-weight:bold}caption{font-weight:bold}sup{line-height:90%}.footnotes,.footnotes p{font-size:90%}.footnotes li:target{background-color:yellow}a.sourceLine{display:inline-block;line-height:1.25}a.sourceLine{pointer-events:none;color:inherit;text-decoration:inherit}a.sourceLine:empty{height:1.2em}.sourceCode{overflow:visible}code.sourceCode{white-space:pre;position:relative}div.sourceCode{margin:1em 0}pre.sourceCode{margin:0}@media screen{div.sourceCode{overflow:auto}}@media print{code.sourceCode{white-space:pre-wrap}a.sourceLine{text-indent:-1em;padding-left:1em}}pre.numberSource a.sourceLine{position:relative;left:-4em}pre.numberSource a.sourceLine::before{content:attr(title);position:relative;left:-1em;text-align:right;vertical-align:baseline;border:none;pointer-events:all;display:inline-block;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding:0 4px;width:4em;color:#aaaaaa}pre.numberSource{margin-left:3em;border-left:1px solid #aaaaaa;padding-left:4px}div.sourceCode{}@media screen{a.sourceLine::before{text-decoration:underline}}code span.al{color:#ff0000;font-weight:bold}code span.an{color:#60a0b0;font-weight:bold;font-style:italic}code span.at{color:#7d9029}code span.bn{color:#40a070}code span.bu{}code span.cf{color:#007020;font-weight:bold}code span.ch{color:#4070a0}code span.cn{color:#880000}code span.co{color:#60a0b0;font-style:italic}code span.cv{color:#60a0b0;font-weight:bold;font-style:italic}code span.do{color:#ba2121;font-style:italic}code span.dt{color:#902000}code span.dv{color:#40a070}code span.er{color:#ff0000;font-weight:bold}code span.ex{}code span.fl{color:#40a070}code span.fu{color:#06287e}code span.im{}code span.in{color:#60a0b0;font-weight:bold;font-style:italic}code span.kw{color:#007020;font-weight:bold}code span.op{color:#666666}code span.ot{color:#007020}code span.pp{color:#bc7a00}code span.sc{color:#4070a0}code span.ss{color:#bb6688}code span.st{color:#4070a0}code span.va{color:#19177c}code span.vs{color:#4070a0}code span.wa{color:#60a0b0;font-weight:bold;font-style:italic}.sourceCode,code{font-family:"Source Code Pro",monospace;font-weight:500;font-size:95%;line-height:155%}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:url('/fonts/source-sans-pro-v9-latin-regular.eot');src:local('Source Sans Pro'),local('SourceSansPro-Regular'),url('/fonts/source-sans-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'),url('/fonts/source-sans-pro-v9-latin-regular.woff2') format('woff2'),url('/fonts/source-sans-pro-v9-latin-regular.woff') format('woff'),url('/fonts/source-sans-pro-v9-latin-regular.ttf') format('truetype'),url('/fonts/source-sans-pro-v9-latin-regular.svg#SourceSansPro') format('svg')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:url('/fonts/source-sans-pro-v9-latin-italic.eot');src:local('Source Sans Pro Italic'),local('SourceSansPro-It'),url('/fonts/source-sans-pro-v9-latin-italic.eot?#iefix') format('embedded-opentype'),url('/fonts/source-sans-pro-v9-latin-italic.woff2') format('woff2'),url('/fonts/source-sans-pro-v9-latin-italic.woff') format('woff'),url('/fonts/source-sans-pro-v9-latin-italic.ttf') format('truetype'),url('/fonts/source-sans-pro-v9-latin-italic.svg#SourceSansPro') format('svg')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:700;src:url('/fonts/source-sans-pro-v9-latin-700.eot');src:local('Source Sans Pro Bold'),local('SourceSansPro-Bold'),url('/fonts/source-sans-pro-v9-latin-700.eot?#iefix') format('embedded-opentype'),url('/fonts/source-sans-pro-v9-latin-700.woff2') format('woff2'),url('/fonts/source-sans-pro-v9-latin-700.woff') format('woff'),url('/fonts/source-sans-pro-v9-latin-700.ttf') format('truetype'),url('/fonts/source-sans-pro-v9-latin-700.svg#SourceSansPro') format('svg')}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:500;src:url('/fonts/source-code-pro-v6-latin-500.eot');src:local('Source Code Pro Medium'),local('SourceCodePro-Medium'),url('/fonts/source-code-pro-v6-latin-500.eot?#iefix') format('embedded-opentype'),url('/fonts/source-code-pro-v6-latin-500.woff2') format('woff2'),url('/fonts/source-code-pro-v6-latin-500.woff') format('woff'),url('/fonts/source-code-pro-v6-latin-500.ttf') format('truetype'),url('/fonts/source-code-pro-v6-latin-500.svg#SourceCodePro') format('svg')}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:700;src:url('/fonts/source-code-pro-v6-latin-700.eot');src:local('Source Code Pro Bold'),local('SourceCodePro-Bold'),url('/fonts/source-code-pro-v6-latin-700.eot?#iefix') format('embedded-opentype'),url('/fonts/source-code-pro-v6-latin-700.woff2') format('woff2'),url('/fonts/source-code-pro-v6-latin-700.woff') format('woff'),url('/fonts/source-code-pro-v6-latin-700.ttf') format('truetype'),url('/fonts/source-code-pro-v6-latin-700.svg#SourceCodePro') format('svg')}
 
+.footnote {
+	font-size: 8pt;
+}
+
+a.menulink:link { color: #7777bb; text-decoration: none; }
+a.menulink:visited { color: #555577; text-decoration: none; }
+a.menulink:active { color: #0000ff; text-decoration: underline; }
+
+.menu {
+	font-family: Verdana,Arial,Helvetica;
+	color: #000000;
+        background: #eeeeff;
+}
+
+.update {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.header {
+	font-size: 9pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+.data {
+	font-size: 9pt;
+}
+
+.keyword {
+	color: #0000ff;
+	font-weight: bold;
+}
+.number {
+	color: #ff00ff;
+}
+.string {
+	color: #ff0000;
+}
+.comment {
+	color: #000088;
+}
+.symbol {
+}
+.normal {
+}
+.function {
+	font-weight: bold;
+}
+
+
+.input {
+	color: #0000ff;
+}
+
+.code {
+	font-family: "Lucida Console",Courier;
+	color: #0000ff;
+	font-size: 0.9em;
+}
+
+.path {
+	font-family: "Lucida Console",Courier;
+	font-size: 0.9em;
+}
+
 .rightMenu {
 	font-size: 10pt;
 	font-weight: bold;
 	color: #336699;
+}
+
+/* Blosxom registry stuff ..................................... */
+.blosxomRegistryHeader {
+	border: 1px solid #999;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+/* Blosxom calendar stuff ..................................... */
+.blosxomCalendar {
+	border: 1px solid #999;
+	margin: 0px;
+	padding: 0px;
+}
+.blosxomCalendarBlogged {
+	background: #bbbbff;
+	text-align: center;
+	color: #000000;
+}
+.blosxomCalendarCell {
+	background: #ddddff;
+	text-align: center;
+	color: #000000;
+}
+.blosxomCalendarToday {
+	background: #ffffcc;
+	color: #000000;
+}
+.blosxomCalendarSpecificDay {
+	background: #ffffcc;
+	text-align: center;
+	color: #000000;
+}
+
+/* Blosxom stuff ................................................ */
+.blosxomDayDiv {
+	float: left;
+	width: 100%;
+}
+
+.blosxomEntry {
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 1em;
+}	
+
+.blosxomEntrySummary {
+	width: 100%;
+	// margin-top: 1em;
+	// margin-bottom: 2em;
+	padding: 1em;
+}	
+
+.blosxomBody {
+	color: #222222;
+	// border: 1px solid #888888;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.blosxomStoryLinks {
+	// background: #eeeeee;
+	// text-align: right;
+}
+
+.blosxomComments {
+	margin-top: 2em;
+	border-top: 1px dashed #444444;
+}
+
+.blosxomTitle {
+	// font-size: 13pt;
+	font-weight: bold;
+	color: #000000;
+}
+.blosxomDate {
+	border-bottom: 1px solid #888888;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #336699;
+} 
+
+.blosxomEntryDate {
+	font-weight: bold;
+	font-size: 100%;
+	color: #aaaaaa;
+} 
+
+.blosxomTime { 
+	text-decoration: italicize;
+	color: #336699;
+}
+
+/* Blosxom comment stuff .......................................... */
+.blosxomComment {
+	background: #eeeeee;
+	border-top: dashed 1px #444444;
+	padding: 0.2em;
+	padding-bottom: 1em;
+}
+
+.blosxomCommentInfo {
+	font-size: smaller;
+}
+
+.blosxomCommentBody {
+	margin-left: 0.5em;
+}
+
+.blosxomCommentForm {
+	border-top: dashed 1px #444444;
 }
