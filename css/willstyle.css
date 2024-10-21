@@ -8,14 +8,14 @@ BODY {
 H1 { 
 	font-size: 13pt;
 	font-weight: bold;
-	font-family: Verdana,Arial,Helvetica;
+	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
 	color: #003300;
 	background: #99aadd;
 }
 H2 { 
 	font-size: 12pt;
 	font-weight: bold;
-	font-family: Verdana,Arial,Helvetica;
+	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
 	color: #000000;
 }
 
