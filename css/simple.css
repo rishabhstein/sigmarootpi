@@ -1,63 +1,81 @@
-/* General styling */
+/* General Styling */
 body {
-    color: black;
+    color: #333; /* Darker gray for better readability */
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 14px;
+    background-color: #f5f5f5; /* Light background color */
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    font-size: 13pt;
+    font-size: 24px;
     font-weight: bold;
     color: #003300;
     background-color: #99aadd;
+    padding: 10px;
+    text-align: center;
 }
 
 h2 {
-    font-size: 12pt;
+    font-size: 20px;
     font-weight: bold;
-    color: #000000;
+    color: #000;
+    padding: 10px;
 }
 
 input {
-    font-size: smaller;
+    font-size: 12px;
+    padding: 5px;
 }
 
+/* Container for centering content */
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text and Table Data */
 p, td {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
 th {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 14px;
     background-color: #eeeeff;
     font-weight: bold;
+    padding: 10px;
 }
 
-li {
+/* Lists */
+li, li.spaced {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
-li.spaced {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-}
-
+/* Code block styling */
 pre.code {
-    margin: 8pt 0;
-    background-color: #FFFFEE;
+    margin: 10px 0;
+    background-color: #ffffee;
+    border: 1px solid #999;
+    color: #111;
+    padding: 10px;
     white-space: pre;
-    border: 1pt solid #999999;
-    color: #111111;
-    padding: 5px;
 }
 
 .footnote {
-    font-size: 8pt;
+    font-size: 12px;
 }
 
-/* Link styling */
+/* Links */
 a.menulink:link {
     color: #7777bb;
     text-decoration: none;
@@ -73,29 +91,31 @@ a.menulink:active {
     text-decoration: underline;
 }
 
-/* Menu and updates */
+/* Menu */
 .menu {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #000000;
+    color: #000;
     background-color: #eeeeff;
+    padding: 10px;
 }
 
+/* Highlighting and Misc */
 .update {
     color: #ff0000;
     font-weight: bold;
 }
 
 .header {
-    font-size: 9pt;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
 }
 
 .data {
-    font-size: 9pt;
+    font-size: 12px;
 }
 
-/* Code highlighting */
+/* Code and syntax highlighting */
 .keyword {
     color: #0000ff;
     font-weight: bold;
@@ -120,31 +140,28 @@ a.menulink:active {
     font-weight: bold;
 }
 
+/* Input fields */
 .input {
     color: #0000ff;
 }
 
-.code, .path {
+/* Code and path fonts */
+.code,
+.path {
     font-family: "Lucida Console", Courier, monospace;
-    color: #0000ff;
     font-size: 0.9em;
+    color: #0000ff;
 }
 
+/* Sidebar menu */
 .rightMenu {
-    font-size: 10pt;
+    font-size: 14px;
     font-weight: bold;
     color: #336699;
 }
 
-/* Blosxom registry */
-.blosxomRegistryHeader {
-    border: 1px solid #999;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-/* Blosxom calendar */
+/* Blosxom registry and calendar styling */
+.blosxomRegistryHeader,
 .blosxomCalendar {
     border: 1px solid #999;
     margin: 0;
@@ -154,64 +171,51 @@ a.menulink:active {
 .blosxomCalendarBlogged {
     background-color: #bbbbff;
     text-align: center;
-    color: #000000;
+    color: #000;
 }
 
 .blosxomCalendarCell {
     background-color: #ddddff;
     text-align: center;
-    color: #000000;
+    color: #000;
 }
 
 .blosxomCalendarToday,
 .blosxomCalendarSpecificDay {
     background-color: #ffffcc;
-    color: #000000;
     text-align: center;
+    color: #000;
 }
 
 /* Blosxom Entries */
 .blosxomDayDiv {
-    float: left;
     width: 100%;
 }
 
-.blosxomEntry {
-    width: 100%;
-    margin: 1em 0 2em;
-    padding: 1em;
-}
-
+.blosxomEntry,
 .blosxomEntrySummary {
     width: 100%;
-    padding: 1em;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
 }
 
 .blosxomBody {
-    color: #222222;
-    padding: 0 1em;
-}
-
-.blosxomComments {
-    margin-top: 2em;
-    border-top: 1px dashed #444444;
+    color: #222;
+    padding: 0 20px;
 }
 
 .blosxomTitle {
     font-weight: bold;
-    color: #000000;
+    color: #000;
 }
 
 .blosxomDate {
-    border-bottom: 1px solid #888888;
-    font-size: 11pt;
+    border-bottom: 1px solid #888;
+    font-size: 14px;
     font-weight: bold;
     color: #336699;
-}
-
-.blosxomEntryDate {
-    font-weight: bold;
-    color: #aaaaaa;
 }
 
 .blosxomTime {
@@ -219,21 +223,23 @@ a.menulink:active {
     color: #336699;
 }
 
-/* Blosxom Comments */
+/* Comments */
+.blosxomComments,
 .blosxomComment {
     background-color: #eeeeee;
-    border-top: 1px dashed #444444;
-    padding: 0.2em 0 1em;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px dashed #444;
 }
 
 .blosxomCommentInfo {
-    font-size: smaller;
+    font-size: 12px;
 }
 
 .blosxomCommentBody {
-    margin-left: 0.5em;
+    margin-left: 10px;
 }
 
 .blosxomCommentForm {
-    border-top: 1px dashed #444444;
+    border-top: 1px dashed #444;
 }
