@@ -10,7 +10,7 @@ H1 {
 	font-weight: bold;
 	font-family: Verdana,Arial,Helvetica;
 	color: #003300;
-	background: #000000; //#99aadd;
+	background: #99aadd;
 }
 H2 { 
 	font-size: 12pt;
@@ -24,7 +24,7 @@ input {
 }
 
 P, TD {
-	font-family: Verdana,Arial,Helvetica;
+	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
 	font-size: 10pt;
 }
 
@@ -185,7 +185,7 @@ a.menulink:active { color: #0000ff; text-decoration: underline; }
 
 .blosxomBody {
 	color: #222222;
-	border: 1px solid #888888;
+	//border: 1px solid #888888;
 	padding-left: 1em;
 	padding-right: 1em;
 }
