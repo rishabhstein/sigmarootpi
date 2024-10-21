@@ -1,21 +1,21 @@
 /* General stuff .............................................. */
 BODY {
 	color: black; 
-	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif; 
+	font-family: Verdana,Arial,Helvetica;
 	font-size: 10pt;
 }
 
 H1 { 
 	font-size: 13pt;
 	font-weight: bold;
-	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
+	font-family: Verdana,Arial,Helvetica;
 	color: #003300;
 	background: #99aadd;
 }
 H2 { 
 	font-size: 12pt;
 	font-weight: bold;
-	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
+	font-family: Verdana,Arial,Helvetica;
 	color: #000000;
 }
 
