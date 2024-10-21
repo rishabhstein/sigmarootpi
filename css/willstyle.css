@@ -187,9 +187,9 @@ a.menulink:active { color: #0000ff; text-decoration: underline; }
 
 .blosxomBody {
 	color: #222222;
-	//border: 1px solid #888888;
-	padding-left: 2em;
-	padding-right: 1em;
+	// border: 1px solid #888888;
+	padding-left: 1em;
+	padding-right: 2em;
 }
 
 .blosxomStoryLinks {
