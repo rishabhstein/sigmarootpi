@@ -1,6 +1,6 @@
 /* General stuff .............................................. */
 BODY {
-	color: black; 
+/* 	color: black;  */
 	font-family: Verdana,Arial,Helvetica;
 	font-size: 10pt;
 	width:90%;
@@ -13,7 +13,6 @@ BODY {
 
 H1 { 
 	font-size: 200%;
-	margin: 0.75em 0 0.5em 0;
 	font-weight: bold;
 	font-family: Verdana,Arial,Helvetica;
 	color: #003300;
