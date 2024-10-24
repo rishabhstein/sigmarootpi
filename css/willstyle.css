@@ -2,7 +2,7 @@
 BODY {
 /* 	color: black;  */
 	font-family: Verdana,Arial,Helvetica;
-	font-size: 10pt;
+/* 	font-size: 10pt; */
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
@@ -19,7 +19,7 @@ H1 {
 	background: #99aadd;
 }
 H2 { 
-	font-size: 12pt;
+	font-size: 130%;
 	font-weight: bold;
 	font-family: Verdana,Arial,Helvetica;
 	color: #000000;
@@ -31,9 +31,9 @@ input {
 
 P, TD {
 	font-family: garamond, palatino,  georgia, verdana, arial, sans-serif;
-	font-size: 12pt;
+	font-size: 90%;
  	text-align: justify;
-	line-height: 125%;
+/* 	line-height: 125%; */
 }
 
 TH {
