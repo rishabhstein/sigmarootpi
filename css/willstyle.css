@@ -3,10 +3,17 @@ BODY {
 	color: black; 
 	font-family: Verdana,Arial,Helvetica;
 	font-size: 10pt;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:720px;
+	background-image:linear-gradient(to top, lightblue, white);
+	text-rendering:optimizeLegibility
 }
 
 H1 { 
-	font-size: 15pt;
+	font-size: 200%;
+	margin: 0.75em 0 0.5em 0;
 	font-weight: bold;
 	font-family: Verdana,Arial,Helvetica;
 	color: #003300;
