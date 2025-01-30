@@ -20,8 +20,8 @@
     <!-- Styling the front page -->
     <style type="text/css">
       body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+        padding-top: 0px;
+        padding-bottom: 0px;
       }
 
       /* Custom container */
@@ -35,7 +35,7 @@
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 40px 0;
+        margin: 20px 0;
         text-align: center;
       }
       .jumbotron h1 {
@@ -52,51 +52,52 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/assets/ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="https://kristopolous.github.io/BOOTSTRA.386/v2.3.1/assets/ico/favicon.png">
-   
-  </head>
 
-  <body>
+</head>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="https://sigmarootpi.com/weblog/">Cogito, ergo sum</a>
-          <div class="nav-collapse collapse">
+<body>
+
+
+<!-- Writing the main heading of my Weblog -->
+<div class="jumbotron">
+  <h1>Cogito, ergo sum</h1>
+
+  <!-- Blinking :D :D -->
+  <p id="blink">
+    An outdated habbit of spitting thoughts in a blog..>_
+  </p>
+
+      <script type="text/javascript">
+        let blink =
+            document.getElementById('blink');
+
+        setInterval(function () {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000); 
+    </script>
+</div>
+
+
+<div class="container-narrow">
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
             <ul class="nav">
               <li class="active"><a href="">Blog</a></li>
               <li><a href="https://sigmarootpi.com">Now</a></li>
               <li><a href="https://sigmarootpi.micro.blog">Microblog</a></li>
               <li><a href="http://users4.smartgb.com/g/g.php?a=s&i=g44-82784-a5">Guestbook</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">My corner<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://sigmarootpi.com/notebooks/">Notebooks</a></li>
-                  <li><a href="https://flic.kr/ps/44B85e">Photography</a></li>
-                  <li><a href="https://sigmarootpi.com/pages/people.html">People</a></li>
-                  <li><a href="https://sigmarootpi.com/pages/groups.html">Groups</a></li>
-                </ul>
-            </li>
+              <li><a href="https://sigmarootpi.com/notebooks/">Notebooks</a></li>
+              <li><a href="https://flic.kr/ps/44B85e">Photography</a></li>
           </ul>
-          </div>
-        </div>
-      </div>
     </div>
-
-<!-- Writing the main heading of my Weblog -->
-<div class="jumbotron">
-  <h1>Cogito, ergo sum</h1>
-  <p>An outdated habbit of spitting thoughts in a blog</p>
+  </div>
 </div>
-<hr  style="width: 70%; margin: auto;"><br>
-<!-- ----------------------------------- -->
 
-<div class ="container-narrow">
+<hr  style="width: 70%; margin: auto;"><br />
+<div class="container-narrow">
 
+     
      
   <h3>Mon, 14 Oct 2024</h3>
   <h4>
@@ -120,16 +121,25 @@ These observations, despite of being thousands of years old still holds upto cer
 </p>
 
   
-  <p>Posted at: Sun, 13 Oct 2024 22:00 GMT | mtime: 1728856800.0 <br />
-   category: <a href="https://sigmarootpi.com/weblog/data" title="path">/weblog/data</a> 
-   <!-- | <a href="https://sigmarootpi.com/weblog/data/2024-10-14-00-00">Comments ()</a> -->
-  </p>
-<hr>
-  <!-- Date foot -->
+  <blockquote style="margin-left: 0px;">
+    <p>
+    <a href='mailto:sigmarootpi@proton.me?subject=Blogentry: Rumination'>Reply via email</a><br />
+       Posted at: Sun, 13 Oct 2024 22:00 GMT <br />
+       category: <a href="https://sigmarootpi.com/weblog/data" title="path">/weblog/data</a> 
+    </p>
+</blockquote>
+<hr>  <!-- Date foot -->
 
     </div><!-- /.container -->
 
 
+<!--Adding my email to the footer -->
+<div class = "jumbotron">
+    <p>    contact me: sigmarootpi at proton.me <br>
+     Built with <a href="https://github.com/kristopolous/BOOTSTRA.386">Bootstra.386</a> | Powered by <a href="http://pyblosxom.github.io/"><img src="https://pyblosxom.github.io/Images/mainlogo.png" 
+      alt="Made with Pyblosxom" border="0" width="5%" height=auto /></a>
+    </p>
+</div> 
    
 
     <!-- Le javascript
