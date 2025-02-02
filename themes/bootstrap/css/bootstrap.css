@@ -232,8 +232,8 @@ textarea {
 body {
   margin: 0;
   font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 22px;
+  line-height: 30px;
   color: #bbbbbb;
   background-color: #000084;
 }
