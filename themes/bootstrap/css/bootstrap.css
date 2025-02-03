@@ -655,6 +655,7 @@ img {
 
 p {
   margin: 0 0 20px;
+  text-align: justify;
 }
 
 .lead {
@@ -987,7 +988,6 @@ blockquote {
 }
 
 blockquote p {
-  margin-top: 5px
   margin-bottom: 0;
   font-size: 20px;
   line-height: 20px;
