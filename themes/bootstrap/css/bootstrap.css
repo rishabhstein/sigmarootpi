@@ -987,8 +987,9 @@ blockquote {
 }
 
 blockquote p {
+  margin-top: 5px
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 20px;
 }
 
