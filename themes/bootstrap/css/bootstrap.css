@@ -984,13 +984,14 @@ abbr.initialism {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #bbbbbb;
+  border-left: 5px solid #FFFFFF;
 }
 
 blockquote p {
   margin-bottom: 0;
   font-size: 20px;
   line-height: 20px;
+  color: #FFFFFF;
 }
 
 blockquote small {
