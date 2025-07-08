@@ -1,0 +1,16 @@
+<p>I was recently exploring a method to compare different versions of my thesis in latex. Interestingly, there is no simple way except joining all files in one <strong>.tex</strong> file and compare it with a similar file of older version. The files can be done joined in one <strong>.tex</strong> file using a python module, flattex which can be directly installed in using Git.</p>
+<blockquote>
+<p>git clone git@github.com:johnjosephhorton/flatex.git<br>
+cd flatex<br>
+pip install --editable</p>
+</blockquote>
+<p>Now, to compare the two versions of the thesis where main.tex is the file which keep the structure of all <strong>.tex</strong> files using <strong>/input</strong> method, flatex need to be ran first</p>
+<blockquote>
+<p>flatex /path/to/V1/main.tex /path/to/V1/old.tex<br>
+flatex /path/to/V2/main.tex /path/to/V2/new.tex</p>
+</blockquote>
+<p>Finally, we can use latexdiff to compare old version (old.tex) with new version (new.tex)</p>
+<blockquote>
+<p>latexdiff /path/to/old.tex /path/to/new.tex &gt; /path/to/diff.tex</p>
+</blockquote>
+<p>Copy the graphics file related to newer version in the folder containing <em>diff.tex</em> and compile the latex file.</p>
